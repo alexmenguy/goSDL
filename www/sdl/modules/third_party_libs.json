@@ -8,7 +8,7 @@
     "General": [
       "The maintainer of this 3rd-party library has a security policy",
       "We are utilizing the latest available stable version of this library",
-      "We have notified the security team about the usage of this library"
+      "Github security alerts are set-up for this repo and dependabot is on https://help.github.com/en/articles/about-security-alerts-for-vulnerable-dependencies"
     ]
   }
 }
