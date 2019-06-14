@@ -19,8 +19,8 @@
           {
             "text": "No",
             "question": {
-              "text": "Is this project highly important strategically?",
-              "description": "Is this project one of our top priorities, one with major implications for our business, or otherwise highly strategic?",
+              "text": "Is this project will require that we collect new type of data ?",
+              "description": "There could be legal or contractual issue that need to be anticipated if we collect new type of data",
               "options": [
                 {
                   "text": "Yes",
@@ -29,7 +29,7 @@
                 {
                   "text": "No",
                   "question": {
-                    "text": "Is the target for this project a prototype, internal-only, or a full, productionized, public launch?",
+                    "text": "Is the target for this project a prototype, internal-only, as oposed to a full productionized, public launch?",
                     "options": [
                       {
                         "text": "Prototype or internal-only",
@@ -38,11 +38,11 @@
                       {
                         "text": "Public launch",
                         "question": {
-                          "text": "Will this component access or store sensitive customer data",
-                          "description": "Customer Data is the most sensitive type of data such as the contents of any messages, private chats, etc.",
+                          "text": "Will this component interact with solution that are not managed by Contentsquare (e.g. Monetate integration) ",
+                          "description": "Interaction with components outside our scope requires a security validation",
                           "options": [
                             {
-                              "text": "Yes, this component will access sensitive customer data",
+                              "text": "Yes, this component provide or require interactions with systems that are not managed by Contentsquare",
                               "question": {
                                 "text": "Is this a change/update to an existing component, or a completely new project?",
                                 "options": [
