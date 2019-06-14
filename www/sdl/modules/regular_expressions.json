@@ -1,7 +1,7 @@
 {
   "title": "Regular Expressions",
   "description": "Are you utilizing Regex in your application?",
-  "tags" : "WebApp, API, MessageServer, iOS, Android, Electron, WindowsPhone",
+  "tags" : "WebApp, API",
   "minimum_risk_required" : "Low Risk", 
   "questions": {
     "General": [
