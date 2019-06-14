@@ -5,9 +5,9 @@
   "minimum_risk_required" : "Low Risk",
   "questions": {
     "General": [
-      "We are only using approved authentication providers, or we are working with the security team on new autentication methods.",
-      "We are storing authentication tokens for integrations correctly.",
-      "We are not echoing authentication tokens (ours or third parties) into logs."
+      "We are using the default login endpoints and authentication mechanisms, or we are working with the security team on new autentication methods.",
+      "We are not echoing authentication tokens (ours or third parties) into logs",
+      "We are not using authentication tokens (ours or third parties) as parameters in GET request."
     ]
   }
 }
