@@ -2,7 +2,7 @@
   "title": "Policy",
   "category": "Legal & Policy",
   "description": "Policy needs to make sure we can continue to make good with our customers and contracts. Please reach out to legal if your team has any issues with the following ",
-  "tags" : "WebApp, API, MessageServer, iOS, Android, Electron, WindowsPhone",
+  "tags" : "Datacollection, Mobile",
   "minimum_risk_required" : "Medium Risk",
   "questions": {
     "Privacy": [
