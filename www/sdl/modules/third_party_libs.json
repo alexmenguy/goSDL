@@ -2,7 +2,7 @@
   "title": "Third-Party Libraries",
   "category": "Third-Party & External",
   "description": "Does your project introduce or utilize a third-party library?",
-  "tags" : "WebApp, API, Mobile",
+  "tags" : "WebApp, API, Mobile, Datacollection, Dataprocessing",
   "minimum_risk_required" : "Medium Risk", 
   "questions": {
     "General": [
