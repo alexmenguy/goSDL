@@ -1,0 +1,12 @@
+{
+  "title": "Security testing strategy",
+  "description": "Applies to All Projects: Standard security guidance that all projects, regardless of features, need to follow.",
+  "tags" : "WebApp, API, Mobile, Datacollection, Dataprocessing",
+  "minimum_risk_required" : "High Risk",
+  "questions": {
+    "General": [
+      "We have define the security testing (in-house, bug-bounty program, wait for annual pentests) strategy with the security team",
+      "Before release in production, the changes where released on pentest environment"
+    ]
+  }
+}
