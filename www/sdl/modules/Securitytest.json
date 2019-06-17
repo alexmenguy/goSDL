@@ -1,7 +1,7 @@
 {
   "title": "Security testing strategy",
   "category": "Security testing",
-  "description": "Applies to All Projects: Standard security guidance that all projects, regardless of features, need to follow.",
+  "description": "High risk projects need to have a specific security testing strategy.",
   "tags" : "WebApp, API, Mobile, Datacollection, Dataprocessing",
   "minimum_risk_required" : "High Risk",
   "questions": {
