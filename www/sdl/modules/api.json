@@ -1,5 +1,6 @@
 {
   "title": "APIs",
+  "category" : "General",
   "description": "Are you implementing or modifying any APIs?",
   "tags": "WebApp, API",
   "minimum_risk_required" : "Low Risk",
