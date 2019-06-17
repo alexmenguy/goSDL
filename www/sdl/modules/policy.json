@@ -1,8 +1,8 @@
 {
   "title": "Policy",
-  "category": "Legal & Policy",
-  "description": "Policy needs to make sure we can continue to make good with our customers and contracts. Please reach out to legal if your team has any issues with the following ",
-  "tags" : "Datacollection, Mobile",
+  "category": "Legal, privacy and contractual requirements",
+  "description": "Policy needs to make sure we can continue to make good with our customers and contracts. Please reach out to legal if your aim to collect new type of data or PII (personally identifiable data) or aim to tranfers, process, store data to an other country or by a new supplier ",
+  "tags" : "Dataprocessing, Datacollection, Mobile",
   "minimum_risk_required" : "Medium Risk",
   "questions": {
     "Privacy": [
@@ -10,7 +10,9 @@
     ],
     "Data Practices": [
       "This feature don't collect a new type of data as detailled in https://docs.contentsquare.com/uxa-en/#collected-data",
-      "This feature doesn't collect any personally-identifiable-information (phone number, name of a user, email address, message content, web browsing history, photos, apps downloaded, unique device identifier, etc...)"
+      "This feature doesn't collect any personally-identifiable-information (phone number, name of a user, email address, message content, web browsing history, photos, apps downloaded, unique device identifier, etc...)",
+      "This feature doesn't require the use of an additional supplier",
+      "EU data are processed and stored in EU, US data are stored and processed in US"
     ],
     "Terms, Policies, Controls": [
       "This feature won't require us to update our Terms of Service"
