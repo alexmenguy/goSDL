@@ -1,5 +1,6 @@
 {
   "title": "Cryptography",
+  "category" : "General",
   "description": "If You’re Typing the Letters A-E-S Into Your Code You’re Doing It Wrong.",
   "tags" : "WebApp, API, Datacollection, Dataprocessing, Mobile",
   "minimum_risk_required" : "Low Risk",
