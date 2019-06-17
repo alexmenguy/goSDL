@@ -1,7 +1,7 @@
 {
   "title": "Web",
   "category": "Web",
-  "description": "We are preventing web application vulnerabilities",
+  "description": "Do you project include a web service that will be accessible publicly or by customer ?",
   "tags" : "WebApp",
   "minimum_risk_required" : "Low Risk",
   "questions": {
