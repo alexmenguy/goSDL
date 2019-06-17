@@ -1,5 +1,6 @@
 {
   "title": "Authentication",
+  "category" : "General",
   "description": "Does your code authenticate or authorize users, tokens, sessions, or other?",
   "tags" : "WebApp, API",
   "minimum_risk_required" : "Low Risk",
