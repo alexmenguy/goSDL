@@ -7,7 +7,8 @@
   "questions": {
     "General": [
       "We have define the security testing (in-house, bug-bounty program, wait for annual pentests) strategy with the security team",
-      "Before release in production, the changes where released on pentest environment"
+      "Before release in production, the changes where released on pentest environment",
+      "All identified vulnerabilities have been mitigated before releasing to production"
     ]
   }
 }
