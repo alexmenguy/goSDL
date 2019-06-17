@@ -157,9 +157,9 @@
       <p class="lead">Instructions</p>
       <p>
         <ol>
-          <li>At the middle or near the end of completion of a project, have a technical person to fill the SDL form.</li>
-          <li>After the initial risk assessment is completed, please complete the Component checklist on the next page. The person filling out this form should check anything that is relevant to the code / feature (language-wise and context-wise) and uncheck anything that <i>they know</i> will always be irrelevant to the project. It's ok to check more things than you need, as there's a way to "uncheck" them later.</li>
-          <li>After the form submitted there will be a JIRA ticket or Trello board created with the checklist items.</li>
+          <li>At the beginning of a new project have a technical person to fill the SDL form or contact the security team to help for completion</li>
+          <li>After the initial risk assessment is completed, please complete the Component checklist on the next page. The person filling out this form should check anything that is relevant to the project and uncheck anything that <i>they know</i> will always be irrelevant to the project. It's ok to check more things than you need, as there's a way to "uncheck" them later.</li>
+          <li>After the form submitted there will be a Trello board created with the checklist items.</li>
           <li>The goal of the SDL is to have <i>everything</i> checked off. If there is an issue with one of the items, please feel free to ask the Security team for advice and steps on how to move forward. Ideally, a fully-completed SDL checklist will expedite the security review requirement.</li>
         </ol>
       </p>
