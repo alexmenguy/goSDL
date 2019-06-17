@@ -42,7 +42,7 @@
                           "description": "Interaction with components outside our scope requires a security validation",
                           "options": [
                             {
-                              "text": "Yes, this component provide or require interactions with systems that are not managed by Contentsquare",
+                              "text": "Yes, require interactions with systems that are not managed by Contentsquare",
                               "question": {
                                 "text": "Is this a change/update to an existing component, or a completely new project?",
                                 "options": [
@@ -59,7 +59,7 @@
                             },
                             {
                               "text": "No",
-                              "risk": "Low Risk"
+                              "risk": "Medium Risk"
                             }
                           ]
                         }
