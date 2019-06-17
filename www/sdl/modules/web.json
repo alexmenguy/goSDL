@@ -1,0 +1,38 @@
+{
+  "title": "Web",
+  "category": "Web",
+  "description": "We are preventing web application vulnerabilities",
+  "tags" : "WebApp",
+  "minimum_risk_required" : "Low Risk",
+  "questions": {
+    "General": [
+      "We have read the presentation about secure development and main vulnerabilities https://contentsquare.atlassian.net/wiki/download/attachments/603652368/Security%20Awareness%20R&D.pdf?version=1&modificationDate=1548424233831&cacheVersion=1&api=v2",
+      "All new web services are registered in Sqreen.io web application firewall (see with the security team)",
+      "Our application gets an A+ on the Mozilla Observatory(https://observatory.mozilla.org/)",
+      "Our application gets an A+ on the [SSlabs](https://www.ssllabs.com/ssltest/analyze.html)"
+    ],
+    "Main vulnerabilities": [
+      "To prevent injection, all SQL queries are parametrized or use replacements (sequelize), not concatenated",
+      "We don't trust any data stored client-side (browser local storage, cookies,...)",
+      "User data are escaped for the right context(https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#XSS_Prevention_Rules_Summary) prior to reflecting it"
+    ],
+    "Node-js": [
+      "We are using ESLint with plugin security (https://github.com/nodesecurity/eslint-plugin-security)",
+      "Avoid using the Node.js crypto library for handling passwords, use Bcrypt",
+      "Escape HTML, JS and CSS output https://github.com/i0natan/nodebestpractices/blob/security-best-practices-section/sections/security/escape-output.md",
+      "Validate incoming JSON schemas https://github.com/i0natan/nodebestpractices/blob/security-best-practices-section/sections/security/validation.md",
+      "Run Node.js as non-root user",
+      "Avoid JavaScript eval statements",
+      "Prevent evil RegEx from overloading your single thread execution https://github.com/i0natan/nodebestpractices/blob/security-best-practices-section/sections/security/regex.md",
+      "Hide error details from clients",
+      "Configure 2FA for npm or Yarn",
+      "Avoid module loading using a variable",
+      "Avoid module loading using a variable"
+    ],
+    "Open Redirection": [
+      "Since the redirection doesn't need to be arbitrary, and user-controlled, we are utilizing the redirect framework to facilitate the redirection",
+      "We have looked into ways to avoid directing users to arbitrary urls, especially those that are user-controlled, while still retaining our functionality",
+      "When calling user supplied URL server-side, we have ensured that internal services can't be called and are protected (see https://www.owasp.org/index.php/Server_Side_Request_Forgery)"
+    ]
+  }
+}
