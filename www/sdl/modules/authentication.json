@@ -1,7 +1,7 @@
 {
   "title": "Authentication",
   "description": "Does your code authenticate or authorize users, tokens, sessions, or other?",
-  "tags" : "WebApp, API, MessageServer, iOS, Android, Electron, WindowsPhone",
+  "tags" : "WebApp, API",
   "minimum_risk_required" : "Low Risk",
   "questions": {
     "General": [
