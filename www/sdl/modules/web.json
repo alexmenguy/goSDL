@@ -14,7 +14,9 @@
     "Main vulnerabilities": [
       "To prevent injection, all SQL queries are parametrized or use replacements (sequelize), not concatenated",
       "We don't trust any data stored client-side (browser local storage, cookies,...)",
-      "User data are escaped for the right context(https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#XSS_Prevention_Rules_Summary) prior to reflecting it"
+      "User data are escaped for the right context(https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet#XSS_Prevention_Rules_Summary) prior to reflecting it",
+      "We have verified the origin when excepting `postMessage()` from other windows",
+      "We have verified the targetOrigin when using `postMessage(message, targetOrigin)`"
     ],
     "Node-js": [
       "We are using ESLint with plugin security (https://github.com/nodesecurity/eslint-plugin-security)",
