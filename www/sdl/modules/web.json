@@ -24,11 +24,10 @@
       "Escape HTML, JS and CSS output https://github.com/i0natan/nodebestpractices/blob/security-best-practices-section/sections/security/escape-output.md",
       "Validate incoming JSON schemas https://github.com/i0natan/nodebestpractices/blob/security-best-practices-section/sections/security/validation.md",
       "Run Node.js as non-root user",
-      "Avoid JavaScript eval statements",
+      "Avoid JavaScript eval statements and never to that with client side inputs",
       "Prevent evil RegEx from overloading your single thread execution https://github.com/i0natan/nodebestpractices/blob/security-best-practices-section/sections/security/regex.md",
       "Hide error details from clients",
       "Configure 2FA for npm or Yarn",
-      "Avoid module loading using a variable",
       "Avoid module loading using a variable"
     ],
     "Open Redirection": [
