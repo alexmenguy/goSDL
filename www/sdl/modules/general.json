@@ -11,6 +11,7 @@
       "All code modifications will be proposed for peer-review through Github's Pull Request",
       "We have looked at past security issues or vulnerabilities specific to this feature, functionality, or other similar features and ensured we're not making similar mistakes.",
       "We have checked for dead code, and deleted it. Less code = fewer bugs!",
+      "When reffering to a object, only UUID are used. Incremental ID is used only if user experience or product justification"
     ]
   }
 }
