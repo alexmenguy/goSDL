@@ -1,14 +1,14 @@
 {
   "title": "Backup and DRP",
   "category" : "Backup and DRP",
-  "description": "New components are created and we need to backup them for disaster recoveru.",
+  "description": "New components are created and we need to backup them for disaster recovery.",
   "tags" : "WebApp, API, Datacollection, Dataprocessing, Mobile",
   "minimum_risk_required" : "Low Risk",
   "questions": {
     "General": [
       "We have ensured that components used for this project are already backup or not critical for Disaster Recovery",
       "If not, we have checked with platformers how to backup these components in the AWS backup account",
-      "We have also checked with security to add these new components / data into the Business Continuity Plan"
+      "We have also checked with security to add these new components / data into the Data recovery plan"
     ]
   }
 }
